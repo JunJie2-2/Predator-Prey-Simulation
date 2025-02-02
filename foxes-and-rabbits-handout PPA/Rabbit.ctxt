@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Rabbit
+comment0.text=\r\n\ A\ simple\ model\ of\ a\ rabbit.\r\n\ Rabbits\ age,\ move,\ breed,\ and\ die.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 7.1\r\n
+comment1.params=randomAge\ location
+comment1.target=Rabbit(boolean,\ Location)
+comment1.text=\r\n\ Create\ a\ new\ rabbit.\ A\ rabbit\ may\ be\ created\ with\ age\r\n\ zero\ (a\ new\ born)\ or\ with\ a\ random\ age.\r\n\ \r\n\ @param\ randomAge\ If\ true,\ the\ rabbit\ will\ have\ a\ random\ age.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=currentField\ nextFieldState
+comment2.target=void\ act(Field,\ Field)
+comment2.text=\r\n\ This\ is\ what\ the\ rabbit\ does\ most\ of\ the\ time\ -\ it\ runs\ \r\n\ around.\ Sometimes\ it\ will\ breed\ or\ die\ of\ old\ age.\r\n\ @param\ currentField\ The\ field\ occupied.\r\n\ @param\ nextFieldState\ The\ updated\ field.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=randomAge\ location
+comment4.target=Rabbit\ createYoung(boolean,\ Location)
+numComments=5

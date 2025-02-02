@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Fox
+comment0.text=\r\n\ A\ simple\ model\ of\ a\ fox.\r\n\ Foxes\ age,\ move,\ eat\ rabbits,\ and\ die.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 7.1\r\n
+comment1.params=randomAge\ location
+comment1.target=Fox(boolean,\ Location)
+comment1.text=\r\n\ Create\ a\ fox.\ A\ fox\ can\ be\ created\ as\ a\ new\ born\ (age\ zero\r\n\ and\ not\ hungry)\ or\ with\ a\ random\ age\ and\ food\ level.\r\n\ \r\n\ @param\ randomAge\ If\ true,\ the\ fox\ will\ have\ random\ age\ and\ hunger\ level.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=currentField\ nextFieldState
+comment2.target=void\ act(Field,\ Field)
+comment2.text=\r\n\ This\ is\ what\ the\ fox\ does\ most\ of\ the\ time\:\ it\ hunts\ for\r\n\ rabbits.\ In\ the\ process,\ it\ might\ breed,\ die\ of\ hunger,\r\n\ or\ die\ of\ old\ age.\r\n\ @param\ currentField\ The\ field\ currently\ occupied.\r\n\ @param\ nextFieldState\ The\ updated\ field.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=void\ incrementHunger()
+comment4.text=\r\n\ Make\ this\ fox\ more\ hungry.\ This\ could\ result\ in\ the\ fox's\ death.\r\n
+comment5.params=field
+comment5.target=Location\ findFood(Field)
+comment5.text=\r\n\ Look\ for\ rabbits\ adjacent\ to\ the\ current\ location.\r\n\ Only\ the\ first\ live\ rabbit\ is\ eaten.\r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @return\ Where\ food\ was\ found,\ or\ null\ if\ it\ wasn't.\r\n
+comment6.params=randomAge\ location
+comment6.target=Fox\ createYoung(boolean,\ Location)
+numComments=7
